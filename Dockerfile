@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:19.10
 LABEL maintainer="Sida Say <sida.say@khalibre.com>"
 
 RUN set -ex \
