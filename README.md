@@ -4,7 +4,7 @@ Running headless libreoffice can help for various use cases. For example convert
 
 # Build
 
-We provide a build.sh script to build the docker container.
+[![Docker Repository on Quay](https://quay.io/repository/khalibre/libreoffice-headless/status "Docker Repository on Quay")](https://quay.io/repository/khalibre/libreoffice-headless)
 
 # Port available
 
@@ -17,7 +17,7 @@ External volumes
 This volume is declared:
 
     /usr/local/share/fonts/: to mount your fonts folder.
-    
+
 Environment variables
 
 Even if the default values are the most suggested, if necessary, it's possible to customize their behavior through these variables:
